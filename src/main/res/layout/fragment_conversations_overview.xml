@@ -17,11 +17,11 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
-            app:backgroundTint="?colorPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_chat_white_24dp"/>
+            android:src="@drawable/ic_group_white_24dp"
+            app:backgroundTint="?colorPrimary" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>
