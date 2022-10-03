@@ -322,9 +322,9 @@ public class StartConversationActivity extends XmppActivity implements XmppConne
                 prefilled = null;
             }
             switch (actionItem.getId()) {
-                case R.id.discover_public_channels:
-                    startActivity(new Intent(this, ChannelDiscoveryActivity.class));
-                    break;
+                //case R.id.discover_public_channels: 숨김
+                    //startActivity(new Intent(this, ChannelDiscoveryActivity.class));
+                   // break;
                 case R.id.join_public_channel:
                     showJoinConferenceDialog(prefilled);
                     break;
