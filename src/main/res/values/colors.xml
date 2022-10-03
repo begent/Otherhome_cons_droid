@@ -44,4 +44,5 @@
 	<color name="splash_screen_status_bar">#ffe0e0e0</color> <!-- gray300 -->
 
 	<color name="blue500">#ff2196f3</color>
+	<color name="purple500">#9eabd8 </color>
 </resources>
