@@ -188,7 +188,7 @@
     <string name="attach_record_voice">Record voice</string>
     <string name="account_settings_jabber_id">Otherhome address</string>
     <string name="block_jabber_id">Block Otherhome address</string>
-    <string name="account_settings_example_jabber_id">username@example.com</string>
+    <string name="account_settings_example_jabber_id">username@otherhome.au</string>
     <string name="password">Password</string>
     <string name="invalid_jid">This is not a valid Otherhome address</string>
     <string name="error_out_of_memory">Out of memory. Image too big</string>
