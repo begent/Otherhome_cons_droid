@@ -41,12 +41,12 @@ public final class Config {
 
     public static final String LOGTAG = BuildConfig.APP_NAME.toLowerCase(Locale.US);
 
-    public static final Jid BUG_REPORTS = Jid.of("bugs@conversations.im");
-    public static final Uri HELP = Uri.parse("https://help.conversations.im");
+    public static final Jid BUG_REPORTS = Jid.of("dev@bgentgroup.com");
+    public static final Uri HELP = Uri.parse("https://support.otherhom.com.au");
 
 
     public static final String DOMAIN_LOCK = null; //only allow account creation for this domain
-    public static final String MAGIC_CREATE_DOMAIN = "conversations.im";
+    public static final String MAGIC_CREATE_DOMAIN = "otherhome.au";
     public static final Jid QUICKSY_DOMAIN = Jid.of("quicksy.im");
 
     public static final String CHANNEL_DISCOVERY = "https://search.jabber.network";
