@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/toolbar"
-            android:background="?attr/colorPrimary"
+            android:background="@color/purple500"
             android:elevation="@dimen/toolbar_elevation"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:tabGravity="fill"
