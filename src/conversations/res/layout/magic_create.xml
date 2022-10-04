@@ -55,11 +55,12 @@
                     <EditText
                         android:id="@+id/username"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="57dp"
                         android:layout_gravity="center_horizontal"
                         android:hint="@string/username_hint"
-                        android:textColor="?attr/edit_text_color"
-                        android:inputType="textNoSuggestions" />
+                        android:inputType="textNoSuggestions"
+                        android:minHeight="50dp"
+                        android:textColor="?attr/edit_text_color" />
 
                     <TextView
                         android:id="@+id/full_jid"
@@ -72,10 +73,12 @@
 
                     <Button
                         android:id="@+id/create_account"
-                        style="@style/Widget.Conversations.Button.Borderless"
+                        style="?android:attr/windowTitleStyle"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="55dp"
                         android:layout_gravity="right"
+                        android:minWidth="88dp"
+                        android:minHeight="50dp"
                         android:text="@string/next"
                         android:textColor="?colorAccent" />
                 </LinearLayout>
