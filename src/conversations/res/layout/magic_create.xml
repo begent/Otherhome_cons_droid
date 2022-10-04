@@ -55,8 +55,9 @@
                     <EditText
                         android:id="@+id/username"
                         android:layout_width="match_parent"
-                        android:layout_height="57dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
                         android:hint="@string/username_hint"
                         android:inputType="textNoSuggestions"
                         android:minHeight="50dp"
@@ -73,14 +74,16 @@
 
                     <Button
                         android:id="@+id/create_account"
-                        style="?android:attr/windowTitleStyle"
+                        style="@style/Widget.Conversations.Button.Borderless"
                         android:layout_width="wrap_content"
                         android:layout_height="55dp"
                         android:layout_gravity="right"
+                        android:background="#FDD835"
                         android:minWidth="88dp"
                         android:minHeight="50dp"
                         android:text="@string/next"
-                        android:textColor="?colorAccent" />
+                        android:textColor="#3F51B5"
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <RelativeLayout
@@ -91,10 +94,9 @@
                     android:layout_alignParentLeft="true">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
+                        android:layout_width="313dp"
+                        android:layout_height="229dp"
+                        android:layout_centerInParent="true"
                         android:padding="8dp"
                         android:src="@drawable/main_logo" />
                 </RelativeLayout>
