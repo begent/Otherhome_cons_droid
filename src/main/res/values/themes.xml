@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/blue_a400</item>
         <item name="popupOverlayStyle">@style/ThemeOverlay.AppCompat.Light</item>
 
-        <item name="color_background_primary">@color/grey50</item>
+        <item name="color_background_primary">@color/white</item> <!-- grey50 -->
         <item name="color_background_secondary">@color/grey200</item>
         <item name="color_background_tertiary">@color/grey300</item>
         <item name="color_background_overlay">@color/black12</item>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="pick_a_server">Pick your XMPP provider</string>
-    <string name="use_conversations.im">Use conversations.im</string>
+    <string name="pick_a_server">Privacy Policy Agreement</string>
+    <string name="use_conversations.im"><b>I Agree to Privacy Policy</b></string>
     <string name="create_new_account">Create new account</string>
-    <string name="do_you_have_an_account">Do you already have an XMPP account? This might be the case if you are already using a different XMPP client or have used Conversations before. If not you can create a new XMPP account right now.\nHint: Some email providers also provide XMPP accounts.</string>
-    <string name="server_select_text">XMPP is a provider independent instant messaging network. You can use this client with what ever XMPP server you choose.\nHowever for your convenience we made it easy to create an account on conversations.im; a provider specially suited for the use with Conversations.</string>
+    <string name="do_you_have_an_account">Otherhome is a <b>private and secure</b> chat app.\n\nTo get started, create a new Otherhome account, or if you are already a member, press sign in!</string>
+    <string name="server_select_text">We will collect and use your personal information(which may include id, name, passport, drive licence, Address, email address, IP address, GPS, cookies. We collect through your use of the mobile apps ,otherhome.au and our other websites: support.otherhome.com.au, otherhome.com.au) to give you a personalised user experience (eg. if you’re advertising a property, we may recommend to you products to optimise your campaign performance, or, if you’re searching for a property, we may recommend to you properties you may be interested in). \n\nWe may also contact you to promote our services or those of third parties. \n\nOur Privacy Policy(https://otherhome.com.au/privacy-policy) further explains how we collect, use and disclose personal information and how to access, correct or complain about the handling of personal information.
+        \n<b>I understand my personal information like ID, Name, Passport, Drive licence, Address, Email address, IP address, GPS, cookies, etc will be stored in database.</b></string>
     <string name="magic_create_text_on_x">You have been invited to %1$s. We will guide you through the process of creating an account.\nWhen picking %1$s as a provider you will be able to communicate with users of other providers by giving them your full XMPP address.</string>
     <string name="magic_create_text_fixed">You have been invited to %1$s. A username has already been picked for you. We will guide you through the process of creating an account.\nYou will be able to communicate with users of other providers by giving them your full XMPP address.</string>
     <string name="your_server_invitation">Your server invitation</string>
