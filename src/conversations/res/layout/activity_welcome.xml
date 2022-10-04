@@ -60,12 +60,14 @@
                         android:text="@string/create_new_account"
                         android:textColor="?colorAccent" />
 
-                    <Button
+                    <!--<Button 숨김 -->
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
                         android:id="@+id/use_existing"
                         style="@style/Widget.Conversations.Button.Borderless"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
+                        android:src="@drawable/ic_lock_open_white_24dp"
                         android:text="@string/i_already_have_an_account"
                         android:textColor="?android:textColorSecondary" />
                 </LinearLayout>
