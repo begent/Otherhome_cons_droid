@@ -63,12 +63,13 @@
 
                                 <AutoCompleteTextView
                                     android:id="@+id/account_jid"
+                                    style="@style/Widget.Conversations.EditText"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:imeOptions="actionNext"
                                     android:inputType="textEmailAddress"
-                                    android:textColor="?attr/edit_text_color"
-                                    style="@style/Widget.Conversations.EditText"/>
+                                    android:minHeight="50dp"
+                                    android:textColor="?attr/edit_text_color" />
                             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -84,13 +85,14 @@
 
                                 <eu.siacs.conversations.ui.widget.TextInputEditText
                                     android:id="@+id/account_password"
+                                    style="@style/Widget.Conversations.EditText"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentTop="true"
                                     android:hint="@string/password"
                                     android:inputType="textPassword"
-                                    android:textColor="?attr/edit_text_color"
-                                    style="@style/Widget.Conversations.EditText"/>
+                                    android:minHeight="50dp"
+                                    android:textColor="?attr/edit_text_color" />
                             </com.google.android.material.textfield.TextInputLayout>
 
                             <LinearLayout
@@ -117,10 +119,11 @@
 
                                         <EditText
                                             android:id="@+id/hostname"
+                                            style="@style/Widget.Conversations.EditText"
                                             android:layout_width="fill_parent"
                                             android:layout_height="wrap_content"
                                             android:inputType="textWebEmailAddress"
-                                            style="@style/Widget.Conversations.EditText"/>
+                                            android:minHeight="50dp" />
                                     </com.google.android.material.textfield.TextInputLayout>
                                 </LinearLayout>
 
@@ -140,11 +143,12 @@
 
                                         <EditText
                                             android:id="@+id/port"
+                                            style="@style/Widget.Conversations.EditText"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
                                             android:inputType="number"
                                             android:maxLength="5"
-                                            style="@style/Widget.Conversations.EditText"/>
+                                            android:minHeight="50dp" />
                                     </com.google.android.material.textfield.TextInputLayout>
                                 </LinearLayout>
                             </LinearLayout>
@@ -155,7 +159,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
-                                android:text="@string/register_account"/>
+                                android:minHeight="50dp"
+                                android:text="@string/register_account" />
                         </LinearLayout>
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
