@@ -74,6 +74,7 @@ public class PickServerActivity extends XmppActivity {
             addInviteUri(intent);
             startActivity(intent);
         });
+        /* 숨김 xmpp서버를 선택해서 직접 로그인 - activity_pick_server.xml 버튼
         binding.useOwnProvider.setOnClickListener(v -> {
             List<Account> accounts = xmppConnectionService.getAccounts();
             Intent intent = new Intent(this, EditAccountActivity.class);
@@ -87,7 +88,7 @@ public class PickServerActivity extends XmppActivity {
             addInviteUri(intent);
             startActivity(intent);
         });
-
+*/
     }
 
     public void addInviteUri(Intent intent) {

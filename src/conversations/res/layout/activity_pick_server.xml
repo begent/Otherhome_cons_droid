@@ -53,12 +53,15 @@
                     <Button
                         android:id="@+id/use_cim"
                         style="@style/Widget.Conversations.Button.Borderless"
-                        android:layout_width="wrap_content"
+                        android:layout_width="247dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
+                        android:layout_marginTop="7dp"
+                        android:background="#FDD835"
+                        android:minHeight="48dp"
                         android:text="@string/use_conversations.im"
-                        android:textColor="?colorAccent" />
-
+                        android:textColor="#3F51B5" />
+                    <!-- 숨김 xmpp서버를 선택해서 직접 로그인 pickserveractivity.java파일수정
                     <Button
                         android:id="@+id/use_own_provider"
                         style="@style/Widget.Conversations.Button.Borderless"
@@ -67,6 +70,7 @@
                         android:layout_gravity="right"
                         android:text="@string/use_own_provider"
                         android:textColor="?android:textColorSecondary" />
+                        -->
                 </LinearLayout>
 
                 <RelativeLayout
