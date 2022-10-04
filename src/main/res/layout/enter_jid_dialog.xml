@@ -20,7 +20,8 @@
         <Spinner
             android:id="@+id/account"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:minHeight="50dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/jid_layout"
@@ -36,7 +37,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:imeOptions="actionDone|flagNoExtractUi"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:minHeight="50dp" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 </layout>

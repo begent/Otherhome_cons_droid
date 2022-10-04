@@ -20,7 +20,8 @@
         <Spinner
             android:id="@+id/account"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:minHeight="50dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/account_jid_layout"
@@ -35,8 +36,9 @@
                 style="@style/Widget.Conversations.EditText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:imeOptions="actionDone|flagNoExtractUi"
                 android:inputType="textEmailAddress"
-                android:imeOptions="actionDone|flagNoExtractUi"/>
+                android:minHeight="50dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <CheckBox
@@ -46,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:checked="true"
-            android:text="@string/save_as_bookmark"/>
+            android:minHeight="50dp"
+            android:text="@string/save_as_bookmark" />
     </LinearLayout>
 </layout>
