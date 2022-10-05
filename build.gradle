@@ -7,10 +7,16 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.2'
+ //       classpath 'com.google.gms:google-services:4.3.13' // 파이어베이스 삽입
     }
 }
 
 apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services' //파이어베이스 삽입
+//dependencies { // 파이어베이스 삽입시작
+//    implementation platform('com.google.firebase:firebase-bom:30.4.1')
+//    implementation 'com.google.firebase:firebase-analytics'
+// }
 
 repositories {
     google()
